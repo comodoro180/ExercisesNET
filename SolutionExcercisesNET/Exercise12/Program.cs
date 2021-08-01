@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+    12- Crea un programa que pida por consola un numero del 1 al 1000 (validara que el numero introducido es correcto) 
+    y sume todos los números del 1 al numero introducido, mostrando por consola el numero de la suma y la media.
+*/
+using System;
 using System.Text.RegularExpressions;
 
 namespace Exercise12
