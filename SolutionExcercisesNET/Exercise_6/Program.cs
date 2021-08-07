@@ -19,7 +19,7 @@ namespace Exercise_6
             int number = -1;
             List<int> listNumbers = new List<int>();
 
-            Console.WriteLine("Enter a number (0 for exit)");
+            Console.WriteLine("Enter a number (0 for exit):");
             while (number != 0)
             {
                 try 
