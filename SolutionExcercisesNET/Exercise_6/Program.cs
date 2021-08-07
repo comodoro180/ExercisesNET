@@ -42,7 +42,7 @@ namespace Exercise_6
 
         public static void Calculate (List<int> listNumbers)
         {
-            Console.WriteLine("The numbers entered were:");
+            Console.WriteLine("The numbers entered were :");
             foreach (int number in listNumbers)
             {
                 Console.Write(number + ",");
