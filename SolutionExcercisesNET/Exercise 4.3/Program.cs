@@ -12,14 +12,12 @@ namespace Exercise_4._3
             {
                 try
                 {
-                    quantityNumbers++;
                     var input = Console.ReadLine();
-                    
+                    quantityNumbers++;
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("Wrong number! ");
-                    if (quantityNumbers != 0) quantityNumbers--;
+                    Console.WriteLine("Wrong number! ");                    
                     //throw;
                 }
             }
