@@ -21,15 +21,6 @@ namespace Exercise_4._3
                 if (quantityNumbers == 10) break;
                 try
                 {
-<<<<<<< HEAD
-                    var input = Console.ReadLine();
-                    quantityNumbers++;
-                }
-                catch (Exception)
-                {
-                    Console.WriteLine("Wrong number! ");                    
-                    //throw;
-=======
                     quantityNumbers++;
                     string input = Console.ReadLine();                    
                     numberList.Add(Convert.ToInt32(input));                    
@@ -38,7 +29,6 @@ namespace Exercise_4._3
                 {
                     Console.WriteLine("Wrong number! ");
                     if (quantityNumbers != 0) quantityNumbers--;                    
->>>>>>> d045c37015a9ae52f2d63729f203681a2f56faf6
                 }
             }
 
