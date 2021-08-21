@@ -6,4 +6,8 @@
     <RootNamespace>Exercise_4._3</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Program.cs~RF292f992.TMP" />
+  </ItemGroup>
+
 </Project>
